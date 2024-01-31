@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loging_RootNode" prefHeight="545.0" prefWidth="599.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.carhire.controller.LogoutFormController">
+    <children>
+        <TextField fx:id="txt_userName" layoutX="222.0" layoutY="199.0" prefHeight="40.0" prefWidth="270.0" promptText="Username">
+            <font>
+                <Font name="Consolas Italic" size="14.0" />
+            </font></TextField>
+        <Button alignment="CENTER" layoutX="138.0" layoutY="360.0" mnemonicParsing="false" onAction="#btnClickOnActionPerform" prefHeight="40.0" prefWidth="310.0" style="-fx-background-color: #c7ecee;" text="Login">
+            <font>
+                <Font name="System Bold Italic" size="18.0" />
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+        </Button>
+        <PasswordField fx:id="txt_UserPassword" layoutX="222.0" layoutY="273.0" prefHeight="40.0" prefWidth="270.0" promptText="Password">
+            <font>
+                <Font name="Consolas Italic" size="14.0" />
+            </font>
+        </PasswordField>
+        <Label layoutX="23.0" layoutY="450.0" prefHeight="29.0" prefWidth="309.0" text="Don't have an account? please Sign up">
+            <font>
+                <Font name="Showcard Gothic" size="14.0" />
+            </font>
+        </Label>
+      <Label alignment="CENTER" layoutX="153.0" layoutY="128.0" prefHeight="58.0" prefWidth="310.0" text="User Login">
+         <font>
+            <Font name="Showcard Gothic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="29.0" prefHeight="93.0" prefWidth="376.0" style="-fx-background-color: #f7f1e3;" text="Car Hire">
+         <font>
+            <Font name="Bauhaus 93" size="28.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="88.0" fitWidth="85.0" layoutX="251.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/icons8-forza-horizon-4-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="64.0" layoutX="297.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/icons8-daf-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="104.0" fitWidth="101.0" layoutX="351.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/icons8-racing-car-64%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="73.0" layoutX="126.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/icons8-show-password-50.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="126.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/icons8-customer-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="64.0" layoutX="193.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/icons8-login-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="316.0" layoutY="445.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/icons8-login-rounded-up-100.png" />
+         </image>
+      </ImageView>
+    </children>
+
+</AnchorPane>

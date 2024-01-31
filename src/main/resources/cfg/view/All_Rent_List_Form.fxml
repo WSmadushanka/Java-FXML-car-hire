@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="454.0" prefWidth="716.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.carhire.controller.AllRentListFormController">
+    <children>
+        <Label alignment="CENTER" layoutX="4.0" prefHeight="74.0" prefWidth="816.0" style="-fx-background-color: #f7f1e3;" text="Rent Lists">
+            <font>
+                <Font name="Showcard Gothic" size="40.0" />
+            </font>
+        </Label>
+        <TableView fx:id="rentList_Table" layoutX="2.0" layoutY="74.0" prefHeight="440.0" prefWidth="816.0">
+            <columns>
+                <TableColumn fx:id="co_RentID" prefWidth="75.0" text="Rent ID" />
+                <TableColumn fx:id="col_CustID" prefWidth="75.0" text="Customer ID" />
+                <TableColumn fx:id="col_CarID" prefWidth="85.0" text="Car ID" />
+                <TableColumn fx:id="col_StartingDate" prefWidth="97.0" text="Starting Date" />
+                <TableColumn fx:id="col_EndDate" prefWidth="123.0" text="End Date" />
+                <TableColumn fx:id="col_Total" prefWidth="199.0" text="Total" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
